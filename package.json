@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "AWS_LAMBDA_FUNCTION_NAME=true node run.js"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "8.0.2",
+    "puppeteer-core": "8.0.0"
+  }
+}
